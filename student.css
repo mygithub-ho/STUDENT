@@ -1,0 +1,60 @@
+body{
+	font-family: '微软雅黑';
+	font-size: 16px;
+}
+ul,li,p,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.box{
+	padding: 40px;
+	text-align: center;
+}
+.box .title{
+	margin: 0 0 20px 0;
+}
+.box .table{
+	width: 100%;
+	border-spacing: 0;
+
+}
+.box .table th,.box .table td{
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+	width: 20%;
+	line-height: 16px;
+}
+.box .opration li{
+	display: inline-block;
+}
+.button{
+	display: inline-block;
+	margin: 30px 0 0;
+	padding: 10px 30px;
+	color: white;
+	cursor: pointer;
+}
+.box .add{
+	background: rgb(48,180,41);
+}
+.box .remove{
+	background: red;
+}
+.box .table input{
+	border: 0;
+	border-bottom: 1px solid black;
+	width: 50%;
+	outline: none;
+	line-height: 16px;
+	text-align: center;
+}
